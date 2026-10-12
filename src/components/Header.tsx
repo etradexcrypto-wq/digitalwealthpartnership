@@ -74,9 +74,9 @@ export function Header() {
   return (
     <header className={`site-header ${scrolled || active || mobileOpen ? "is-solid" : ""}`} ref={header} onMouseLeave={() => setActive(null)}>
       <div className="nav-shell">
-        <Link className="brand" href="/" aria-label="DWP Wyoming LLC home" onClick={() => setActive(null)}>
+        <Link className="brand" href="/" aria-label="DW Digitalwealth LLC home" onClick={() => setActive(null)}>
           <img src="/assets/logo.svg" alt="" width="44" height="44" />
-          <span className="brand-words"><strong>DWP</strong><small>WYOMING LLC</small></span>
+          <span className="brand-words"><strong>DW</strong><small>DIGITALWEALTH LLC</small></span>
         </Link>
         
         <nav className="desktop-nav" aria-label="Main navigation">

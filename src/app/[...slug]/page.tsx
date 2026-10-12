@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const page = pages[slug.join("/")];
   if (!page) return { title: "Page not found", robots: { index: false } };
   const image = page.image ? media[page.image] : "/assets/logo.svg";
-  const url = `https://dwpwyomingllc.com${page.path}/`;
-  return { title: page.title, description: page.summary, alternates: { canonical: url }, openGraph: { title: `${page.title} | DWP Wyoming LLC`, description: page.summary, url, images: [{ url: image, alt: page.imageAlt || page.title }] }, twitter: { card: "summary_large_image", title: page.title, description: page.summary, images: [image] } };
+  const url = `https://digitalwealthpartnership.io${page.path}/`;
+  return { title: page.title, description: page.summary, alternates: { canonical: url }, openGraph: { title: `${page.title} | DW Digitalwealth LLC`, description: page.summary, url, images: [{ url: image, alt: page.imageAlt || page.title }] }, twitter: { card: "summary_large_image", title: page.title, description: page.summary, images: [image] } };
 }
 
 export default async function InfoPage({ params }: Props) {

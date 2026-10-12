@@ -1,10 +1,10 @@
-export const accountUrl = "https://app.dwpwyomingllc.com";
+export const accountUrl = "https://app.digitalwealthpartnership.io";
 
 export type NavItem = { label: string; href: string; description?: string };
 export type NavGroup = { label: string; href: string; eyebrow: string; intro: string; links: NavItem[] };
 
 export const navigation: NavGroup[] = [
-  { label: "About", href: "/about", eyebrow: "OUR PERSPECTIVE", intro: "A Wyoming foundation with a wider view of business.", links: [
+  { label: "About", href: "/about", eyebrow: "OUR PERSPECTIVE", intro: "A Digitalwealth foundation with a wider view of business.", links: [
     { label: "Company & Values", href: "/about", description: "What shapes our approach" },
     { label: "Get in Touch", href: "/contact", description: "Begin a conversation" }
   ] },
@@ -21,7 +21,7 @@ export const navigation: NavGroup[] = [
   ] },
   { label: "Global Opportunities", href: "/opportunities", eyebrow: "BEYOND BORDERS", intro: "From a local foundation to an international perspective.", links: [
     { label: "Explore Opportunities", href: "/opportunities", description: "A global business lens" },
-    { label: "Wyoming to the World", href: "/opportunities#wyoming-world", description: "Our visual story" },
+    { label: "Digitalwealth to the World", href: "/opportunities#wyoming-world", description: "Our visual story" },
     { label: "Opportunity Gallery", href: "/opportunities#opportunity-gallery", description: "Four perspectives" }
   ] },
   { label: "Learning", href: "/learning/crypto", eyebrow: "LEARN WITH CONTEXT", intro: "Two distinct guides for two very different environments.", links: [

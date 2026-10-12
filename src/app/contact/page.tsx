@@ -9,17 +9,17 @@ import { Icon } from "../../components/Icon";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Start a thoughtful conversation with DWP Wyoming LLC about business, relationships and the questions that matter to you.",
-  alternates: { canonical: "https://dwpwyomingllc.com/contact/" },
+    "Start a thoughtful conversation with DW Digitalwealth LLC about business, relationships and the questions that matter to you.",
+  alternates: { canonical: "https://digitalwealthpartnership.io/contact/" },
   openGraph: {
-    title: "Contact | DWP Wyoming LLC",
+    title: "Contact | DW Digitalwealth LLC",
     description: "The right conversation starts with context.",
-    url: "https://dwpwyomingllc.com/contact/",
+    url: "https://digitalwealthpartnership.io/contact/",
     images: [{ url: media.contactConversation }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact | DWP Wyoming LLC",
+    title: "Contact | DW Digitalwealth LLC",
     description: "The right conversation starts with context.",
     images: [media.contactConversation],
   },
@@ -31,7 +31,7 @@ export default function Contact() {
       <section className="contact-head dark-section">
         <div className="container contact-head-grid">
           <div>
-            <span className="eyebrow page-enter">DWP WYOMING LLC / CONTACT</span>
+            <span className="eyebrow page-enter">DW DIGITALWEALTH LLC / CONTACT</span>
             <h1 className="page-enter">
               Let's start <em>a conversation.</em>
             </h1>
@@ -67,10 +67,10 @@ export default function Contact() {
                 <strong>Email us</strong>
                 <p>
                   <a
-                    href="mailto:support@dwpwyomingllc.com"
+                    href="mailto:support@digitalwealthpartnership.io"
                     className="text-link"
                   >
-                    support@dwpwyomingllc.com
+                    support@digitalwealthpartnership.io
                   </a>
                 </p>
                 <p>
@@ -100,10 +100,10 @@ export default function Contact() {
               <p>
                 You can also reach us at{" "}
                 <a
-                  href="mailto:support@dwpwyomingllc.com"
+                  href="mailto:support@digitalwealthpartnership.io"
                   className="text-link"
                 >
-                  support@dwpwyomingllc.com
+                  support@digitalwealthpartnership.io
                 </a>
                 . <em>For a faster response, please use our live chat.</em>
               </p>

@@ -1,6 +1,6 @@
-# DWP Wyoming LLC website
+# DW Digitalwealth LLC website
 
-A complete multi-page, Vercel-ready corporate website for **DWP Wyoming LLC**. The source uses Next.js App Router, TypeScript/TSX, local WebP photography and separate desktop/mobile hero MP4 files. It is statically exported to `out/`, so every public route is available as HTML without a running server or a database. The owner-supplied public domain is `dwpwyomingllc.com`; account-related actions lead to the separate `https://app.dwpwyomingllc.com` application.
+A complete multi-page, Vercel-ready corporate website for **DW Digitalwealth LLC**. The source uses Next.js App Router, TypeScript/TSX, local WebP photography and separate desktop/mobile hero MP4 files. It is statically exported to `out/`, so every public route is available as HTML without a running server or a database. The owner-supplied public domain is `digitalwealthpartnership.io`; account-related actions lead to the separate `https://app.digitalwealthpartnership.io` application.
 
 ## Run and deploy
 
@@ -19,7 +19,7 @@ The site has **18 routes**: Home, About, Business overview and three detail page
 
 ## Media and interaction
 
-All photographs are optimized local WebP files in `public/assets/images/`; no page-load image generation is used. `src/content/media.ts` maps every photo to a single visible placement so cards and sections do not repeat the same image. The editorial cards without photography use original inline SVG icons and CSS illustrations. The wordmark is replaceable at `public/assets/logo.svg`; `public/favicon.svg` is a matching browser icon. Images are illustrative: they do **not** prove DWP staff, offices, projects, holdings, clients or results.
+All photographs are optimized local WebP files in `public/assets/images/`; no page-load image generation is used. `src/content/media.ts` maps every photo to a single visible placement so cards and sections do not repeat the same image. The editorial cards without photography use original inline SVG icons and CSS illustrations. The wordmark is replaceable at `public/assets/logo.svg`; `public/favicon.svg` is a matching browser icon. Images are illustrative: they do **not** prove DW staff, offices, projects, holdings, clients or results.
 
 The hero uses `hero-desktop.mp4` (1280×720, 8 seconds) and `hero-mobile.mp4` (720×1280, 8 seconds). Both are silent, locally stored H.264 files. Matching local WebP frames appear before video; the page retains a poster if video fails, autoplay is blocked, reduced motion is requested or data saving is enabled. The preloader has a CSS time limit independent of JavaScript. Video is paused off screen. Desktop and mobile files are independently framed, not crops of the same footage.
 
@@ -31,9 +31,9 @@ The Contact form validates Full Name, Email and Message (with optional Phone and
 
 ## Source photography and usage
 
-Images were selected individually from **Pexels** and free **Unsplash** results, optimized and stored locally. Their stated free-license terms permit website use; see [Pexels License](https://www.pexels.com/license/) and [Unsplash commercial-use guidance](https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects). Do not imply the photographed people endorse DWP. Free stock portraits and locations are illustrative, not documentary photos of the company.
+Images were selected individually from **Pexels** and free **Unsplash** results, optimized and stored locally. Their stated free-license terms permit website use; see [Pexels License](https://www.pexels.com/license/) and [Unsplash commercial-use guidance](https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects). Do not imply the photographed people endorse DW. Free stock portraits and locations are illustrative, not documentary photos of the company.
 
-The corporate meeting sources cover `home-boardroom`, `business-overview`, `business-development`, `business-partnerships`, `services-overview` and `contact-conversation`. The architectural and site sources cover `learning-real-estate`, `learning-due-diligence`, `property-plan`, `services-corporate` and the Wyoming and Dubai pages. The market and device sources cover `learning-crypto`, `learning-custody`, `crypto-network`, `services-market`, `business-global-assets` and `mobile-business`. Separate stock images provide each of the four carousel slides. The responsive hero videos and their poster frames were produced for this project.
+The corporate meeting sources cover `home-boardroom`, `business-overview`, `business-development`, `business-partnerships`, `services-overview` and `contact-conversation`. The architectural and site sources cover `learning-real-estate`, `learning-due-diligence`, `property-plan`, `services-corporate` and the Digitalwealth and Dubai pages. The market and device sources cover `learning-crypto`, `learning-custody`, `crypto-network`, `services-market`, `business-global-assets` and `mobile-business`. Separate stock images provide each of the four carousel slides. The responsive hero videos and their poster frames were produced for this project.
 
 ## Structure
 

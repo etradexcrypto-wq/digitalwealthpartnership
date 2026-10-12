@@ -28,12 +28,12 @@ export type PageSpec = {
 
 export const pages: Record<string, PageSpec> = {
   about: {
-    path: "/about", eyebrow: "THE COMPANY", title: "Grounded in Wyoming. Open to the world.",
-    summary: "DWP Wyoming LLC brings a measured, modern perspective to business relationships, market awareness and opportunities across borders.",
-    image: "aboutFoundation", imageAlt: "Historic barn beneath the Grand Teton mountains in Wyoming",
+    path: "/about", eyebrow: "THE COMPANY", title: "Grounded in Digitalwealth. Open to the world.",
+    summary: "DW Digitalwealth LLC brings a measured, modern perspective to business relationships, market awareness and opportunities across borders.",
+    image: "aboutFoundation", imageAlt: "Historic barn beneath the Grand Teton mountains in Digitalwealth",
     introTitle: "A clear point of view matters.",
     intro: [
-      "DWP Wyoming LLC is presented here as a platform for thoughtful business development and professional connection. Its Wyoming identity is a starting point, while its outlook considers how people, markets and ideas intersect internationally.",
+      "DW Digitalwealth LLC is presented here as a platform for thoughtful business development and professional connection. Its Digitalwealth identity is a starting point, while its outlook considers how people, markets and ideas intersect internationally.",
       "Our public website introduces the themes that shape those conversations: structured thinking, constructive relationships, changing markets and an interest in emerging technology. Each engagement requires its own facts, scope and appropriate professional expertise.",
       "We would rather describe an approach carefully than attach unsupported numbers, claims or credentials to it. This site is an introduction—not a statement that any regulated service, specific partnership or investment product is available."
     ],
@@ -61,7 +61,7 @@ export const pages: Record<string, PageSpec> = {
         title: "Partnership", 
         body: "Productive relationships built on listening, fit and mutual understanding.", 
         icon: "link",
-        imageSrc: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" 
+        imageSrc: "https://cdn.prod.website-files.com/67c5ccce25ee4e53514167ac/6ab4c085e1e4657e4ea8abfc_Codex%20Image%20Sep%2023%2C%202026%2C%2012_06_35%20PM.png" 
       }
     ],
     closingTitle: "The next chapter begins with a conversation.", closing: "If your priorities connect with our areas of interest, tell us what you are exploring and we can begin with the right questions."
@@ -72,7 +72,7 @@ export const pages: Record<string, PageSpec> = {
     image: "businessOverview", imageAlt: "Executives discussing a global business map in an office",
     introTitle: "Connection with direction.",
     intro: [
-      "Business progress rarely follows a straight line. It calls for a clear understanding of the objective, the people involved and the conditions around a decision. DWP's public business themes reflect that practical starting point.",
+      "Business progress rarely follows a straight line. It calls for a clear understanding of the objective, the people involved and the conditions around a decision. DW's public business themes reflect that practical starting point.",
       "From emerging opportunities to established categories, we favor a broad lens: careful research, useful introductions and structured discussion. The pages below explain those themes without implying a transaction or offering a financial product."
     ],
     cardsTitle: "Explore our business themes",
@@ -109,7 +109,7 @@ export const pages: Record<string, PageSpec> = {
     intro: [
       "Development starts by naming the opportunity clearly. Who is it for? What problem does it address? Which assumptions still need evidence? Without those answers, momentum can look like progress while adding little clarity.",
       "A disciplined conversation then considers stakeholders, timing and constraints. A useful plan does not promise an outcome; it helps people understand dependencies, sequence conversations and decide what deserves further investigation.",
-      "DWP's interest in business development is anchored in that process-oriented view. This page describes a way of thinking, not a guarantee of introductions, projects or growth."
+      "DW's interest in business development is anchored in that process-oriented view. This page describes a way of thinking, not a guarantee of introductions, projects or growth."
     ],
     cardsTitle: "A considered sequence",
     cards: [
@@ -142,7 +142,7 @@ export const pages: Record<string, PageSpec> = {
     intro: [
       "A valuable relationship is more than a familiar logo or an introduction. It rests on compatible aims, an honest understanding of capabilities and a clear view of who is responsible for what.",
       "Different organizations bring different ways of working. Listening first helps surface whether their timelines, values and expectations can support a constructive relationship. Good collaboration also makes room for independent judgment when it is needed.",
-      "References to partnerships on this site describe a business theme; they do not assert that DWP has a named partner, signed alliance or formal arrangement."
+      "References to partnerships on this site describe a business theme; they do not assert that DW has a named partner, signed alliance or formal arrangement."
     ],
     cardsTitle: "What we look for in collaboration",
     cards: [
@@ -175,7 +175,7 @@ export const pages: Record<string, PageSpec> = {
     intro: [
       "Global assets span many categories with different ownership structures, liquidity, time horizons and risks. The labels alone tell only part of the story; the underlying terms and the purpose of an exposure matter more.",
       "Digital assets add another layer of technology and operational questions. Their volatility, custody arrangements and legal treatment can vary substantially. This website acknowledges the category as part of a broader business environment, not as a recommendation to buy or sell anything.",
-      "DWP does not publish client holdings, assets under management or performance information here. No investment management or advisory service is represented by this page."
+      "DW does not publish client holdings, assets under management or performance information here. No investment management or advisory service is represented by this page."
     ],
     cardsTitle: "A balanced lens",
     cards: [
@@ -207,7 +207,7 @@ export const pages: Record<string, PageSpec> = {
     introTitle: "Support starts with understanding.",
     intro: [
       "Businesses face different challenges at different moments. Some need to define a collaboration model; others need a clearer picture of the environment around a possible decision.",
-      "These pages describe the areas DWP wants to discuss publicly. Scope, responsibilities and any engagement terms must be agreed separately. We do not use a website headline as a substitute for a specific proposal or professional advice."
+      "These pages describe the areas DW wants to discuss publicly. Scope, responsibilities and any engagement terms must be agreed separately. We do not use a website headline as a substitute for a specific proposal or professional advice."
     ],
     cardsTitle: "Areas of focus",
     cards: [
@@ -216,14 +216,14 @@ export const pages: Record<string, PageSpec> = {
         body: "Organizing people, process and information around a business objective.", 
         icon: "building", 
         href: "/services/corporate-solutions",
-        imageSrc: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
+        imageSrc: "https://blog.deriv.com/_next/image?url=https%3A%2F%2Fqnmbxtapfovvhrksygcm.supabase.co%2Fstorage%2Fv1%2Fobject%2Fsign%2Fstudio-images%2Flede%2Fc55f8879-3ece-4b26-aa45-53b178e1383e%2Fblog-b66b1ff7-3698-41e3-9f2b-8a6685e52909.png%3Ftoken%3DeyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mOWQ3MTY4Ny0yY2I1LTQyMGEtODZlZS0xZmVkNGM2ZGQ5YTYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzdHVkaW8taW1hZ2VzL2xlZGUvYzU1Zjg4NzktM2VjZS00YjI2LWFhNDUtNTNiMTc4ZTEzODNlL2Jsb2ctYjY2YjFmZjctMzY5OC00MWUzLTlmMmItOGE2Njg1ZTUyOTA5LnBuZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3ODY3MDQyMDEsImV4cCI6MTgxODI0MDIwMX0.a6nKFT_o-zjmEW4FVBXIeorNYbAm55iznnRnDEsnY-g&w=640&q=75"
       },
       { 
         title: "Market Insights", 
         body: "A disciplined way to interpret signals without mistaking them for certainty.", 
         icon: "chart", 
         href: "/services/market-insights",
-        imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+        imageSrc: "https://experts.deriv.com/_next/image?url=https%3A%2F%2Fqnmbxtapfovvhrksygcm.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fblog-images%2Fblog%2Fc5036148-330c-4e6a-ac11-cafb8c1b21f2.webp&w=1920&q=75"
       }
     ],
     closingTitle: "The right scope is specific.", closing: "Share the context of your question and we can discuss whether a next conversation makes sense."
@@ -236,7 +236,7 @@ export const pages: Record<string, PageSpec> = {
     intro: [
       "A corporate challenge often arrives with competing timelines and incomplete information. Before selecting a path, it helps to identify the decision, the people affected and the evidence still missing.",
       "An effective working structure might distinguish discovery from evaluation, define roles and record what has been agreed. This can reduce friction without pretending that every issue has a single template answer.",
-      "Legal, tax, financial and regulatory matters require appropriately qualified independent professionals. This website does not represent DWP as providing those regulated services."
+      "Legal, tax, financial and regulatory matters require appropriately qualified independent professionals. This website does not represent DW as providing those regulated services."
     ],
     cardsTitle: "A useful working model",
     cards: [
@@ -283,7 +283,7 @@ export const pages: Record<string, PageSpec> = {
         title: "Consider the horizon", 
         body: "Short-term movements and structural change require different lenses.", 
         icon: "chart",
-        imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+        imageSrc: "https://experts.deriv.com/_next/image?url=https%3A%2F%2Fqnmbxtapfovvhrksygcm.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fblog-images%2Fblog%2Fc5036148-330c-4e6a-ac11-cafb8c1b21f2.webp&w=1920&q=75"
       },
       { 
         title: "Keep uncertainty visible", 
@@ -429,7 +429,7 @@ export const pages: Record<string, PageSpec> = {
         title: "Scenario", 
         body: "Test assumptions under more than one plausible set of conditions.", 
         icon: "chart",
-        imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+        imageSrc: "https://experts.deriv.com/_next/image?url=https%3A%2F%2Fqnmbxtapfovvhrksygcm.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fblog-images%2Fblog%2Fc5036148-330c-4e6a-ac11-cafb8c1b21f2.webp&w=1920&q=75"
       }
     ],
     closingTitle: "Good diligence is a team activity.", closing: "Use these prompts to organize questions for appropriately qualified local professionals."
@@ -440,7 +440,7 @@ export const pages: Record<string, PageSpec> = {
     introTitle: "What this website does today.",
     intro: [
       "This static website can be browsed without creating a public-site account. The separate client application has its own arrangements and should be reviewed independently.",
-      "The contact form on this site is not connected to a delivery service. Information typed into it is checked in your browser but is not transmitted to DWP through this website. Please do not enter sensitive personal or financial information.",
+      "The contact form on this site is not connected to a delivery service. Information typed into it is checked in your browser but is not transmitted to DW through this website. Please do not enter sensitive personal or financial information.",
       "The theme control stores your explicit light/dark preference in your browser. The optional Google Translate feature may contact Google's service if you use it, subject to Google's own practices. This notice is a limited product description, not a substitute for an owner-approved full privacy policy."
     ],
     cardsTitle: "Your choices",
@@ -467,7 +467,7 @@ export const pages: Record<string, PageSpec> = {
     intro: [
       "The pages on this site provide general corporate and educational information. They do not create a client relationship or an offer of regulated services, securities, property or products.",
       "Some links lead to a separate application or third-party services. Those services may have their own terms and controls. Verify important facts and consult qualified independent professionals before acting on legal, tax, financial or property matters.",
-      "Illustrative images do not depict verified DWP staff, offices, clients, holdings or transactions. This is a limited website notice, not an owner-approved legal agreement."
+      "Illustrative images do not depict verified DW staff, offices, clients, holdings or transactions. This is a limited website notice, not an owner-approved legal agreement."
     ],
     cardsTitle: "How to use the site",
     cards: [
@@ -491,7 +491,7 @@ export const pages: Record<string, PageSpec> = {
     summary: "The distinction between discussing markets and providing professional advice matters.",
     introTitle: "Context, not a promise.",
     intro: [
-      "DWP Wyoming LLC's public website describes broad business themes and offers educational introductions to digital assets and real estate. It does not represent that DWP is registered or licensed to provide investment advisory, brokerage, legal, tax, insurance, custody or real-estate services.",
+      "DW Digitalwealth LLC's public website describes broad business themes and offers educational introductions to digital assets and real estate. It does not represent that DW is registered or licensed to provide investment advisory, brokerage, legal, tax, insurance, custody or real-estate services.",
       "Digital assets may be volatile, technologically complex and subject to loss. Real estate can be illiquid and subject to local legal, financing, physical and market risks. No example or visual on this site represents a return, client result or forecast.",
       "Use suitably qualified independent professionals for advice specific to your situation. Any future service descriptions or required regulatory disclosures should be added only after verification by the site owner and appropriate counsel."
     ],
@@ -510,7 +510,7 @@ export const pages: Record<string, PageSpec> = {
         imageSrc: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=800&q=80"
       }
     ],
-    closingTitle: "Clarity before commitment.", closing: "Contact DWP for a preliminary conversation and confirm the scope of any proposed arrangement in writing."
+    closingTitle: "Clarity before commitment.", closing: "Contact DW for a preliminary conversation and confirm the scope of any proposed arrangement in writing."
   }
 };
 

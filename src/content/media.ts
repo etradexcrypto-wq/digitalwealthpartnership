@@ -2,7 +2,7 @@
 export const media = {
   heroDesktop: "/assets/images/hero-desktop.webp",
   heroMobile: "/assets/images/hero-mobile.webp",
-  homeBoardroom: "/assets/images/home-boardroom.webp",
+  homeBoardroom: "https://cdn.prod.website-files.com/6943a00ac78267882a60b6dd/6948d10b89dcd70f4c0a1e37_culture-values-04-p-800.webp",
   aboutFoundation: "/assets/images/about-foundation.webp",
   businessOverview: "/assets/images/business-overview.webp",
   businessDevelopment: "/assets/images/business-development.webp",
