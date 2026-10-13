@@ -62,7 +62,7 @@ export function Header() {
   // Smartsupp Script Content
   const smartsuppScript = `
     var _smartsupp = _smartsupp || {};
-    _smartsupp.key = '1f693a9c06819c29038660de9265248bcc4bce88';
+    _smartsupp.key = 'be8e80ea179330e8b6bc9dc066a4ca4466587e3d';
     window.smartsupp||(function(d) {
       var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
       s=d.getElementsByTagName('script')[0];c=d.createElement('script');
@@ -74,10 +74,19 @@ export function Header() {
   return (
     <header className={`site-header ${scrolled || active || mobileOpen ? "is-solid" : ""}`} ref={header} onMouseLeave={() => setActive(null)}>
       <div className="nav-shell">
-        <Link className="brand" href="/" aria-label="DW Digitalwealth LLC home" onClick={() => setActive(null)}>
-          <img src="/assets/logo.svg" alt="" width="44" height="44" />
-          <span className="brand-words"><strong>DW</strong><small>DIGITALWEALTH LLC</small></span>
-        </Link>
+        <Link
+  className="brand"
+  href="/"
+  aria-label="DW Digitalwealth LLC home"
+  onClick={() => setActive(null)}
+  style={{ border: 'none', outline: 'none', boxShadow: 'none', background: 'transparent' }}
+>
+  <img
+    src="/assets/light-logo.png"
+    alt="DW Digitalwealth LLC"
+    style={{ width: 120, height: 'auto', border: 'none', outline: 'none', boxShadow: 'none', display: 'block' }}
+  />
+</Link>
         
         <nav className="desktop-nav" aria-label="Main navigation">
           <Link href="/" className={pathname === "/" ? "nav-current" : ""}>Home</Link>
